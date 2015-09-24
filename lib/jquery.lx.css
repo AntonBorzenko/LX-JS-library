@@ -1,0 +1,22 @@
+.overlay {
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.overlay > * {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.alert-form {
+    font-weight: bold;
+    font-size: 50px;
+    background-color: #00c1ce;
+    color: white;
+    z-index: 900;
+    text-align: center;
+}
