@@ -15,7 +15,7 @@ String formatter:
 String substitutor:
 --------------------------------------
 ```javascript
-"My favourite friut is {FRUIT}".substitute({ FRUIT : 'orange' }) // returns "My favourite friut is orange"
+"My favourite fruit is {FRUIT}".substitute({ FRUIT : 'orange' }) // returns "My favourite fruit is orange"
 ```
 
 
